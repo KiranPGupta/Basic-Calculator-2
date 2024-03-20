@@ -1,0 +1,18 @@
+print("1. Add")
+print("2.Sub")
+print("3.Mul")
+print("4.Divide")
+while True:
+    choice=int(input("Enter the Choice: "))
+    x=int(input("First Number: "))
+    y=int(input("Second Number: "))
+    if(choice==1):
+        print(x+y)
+    elif(choice==2):
+        print(x-y)
+    elif(choice==3):
+        print(x*y)
+    elif(choice==4):
+        print(x/y)
+    else:
+        break
